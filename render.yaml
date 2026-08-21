@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ecommerce-order-fulfilment-platform
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
